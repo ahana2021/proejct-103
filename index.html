@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Family Recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+
+    <body>
+        <center>
+        <h1 class="btn btn-default heading">FAMILY MEMBERS FACE RECOGNITION WEBSITE</h1>
+        <br>
+        <br>
+        <h3 style="font-size: 25px;"> MODEL IS TRAINED FOR THE FOLLOWING PEOPLE</h3>
+
+        <br>
+        <b class="name_of_objects">
+        <span class="btn btn-warning">ME</span>
+        <span class="btn btn-warning">FATHER</span>
+        <span class="btn btn-warning">MOTHER</span>
+        <span class="btn btn-warning">BROTHER</span>
+        </b>
+        <br>
+        <br>
+        <label>WEBCAM VIEW</label>
+        <div id="camera"></div>
+        <br>
+        <br>
+        <label>RESULT</label>
+        <div id="result"></div>
+        <br>
+        <button id="snapshot" class="btn btn-info" onclick="take_snapshot()">TAKE PICTURE</button>
+        <br> <br>
+        <button id="check" class="btn btn-info" onclick="check()">CHECK RESULT</button>
+        </center>
+    </body>
+</html>

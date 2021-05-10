@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+ h1{
+    font-family: 'Girassol', cursive;
+ }
+ #camera{
+    border: 2px blue dasshed;
+    width:350;
+    height:350;
+ }
